@@ -1,0 +1,60 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hl7.fhir.uv.ichom-breast-cancer
+canonical: http://hl7.org/fhir/uv/ichom-breast-cancer
+name: Breast Cancer - ICHOM
+title: "ICHOM Patient Centered Outcomes Measure Set for Breast Cancer"
+status: draft
+version: 1.0.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+publisher:
+  name: HL7 International - Clinical Interoperability Council Group
+  url: http://www.hl7.org/Special/committees/cic
+
+extension:
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status
+    valueCode: trial-use
+  - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm
+    valueInteger: 2
+
+dependencies:
+  hl7.fhir.uv.sdc: 3.0.0
+  hl7.fhir.uv.extensions: 1.0.0
+
+pages:
+  index.md:
+    title: Introduction
+  fhir-basics.md:
+    title: FHIR basics
+  use-cases.md:
+    title: Use Cases
+  standard-set.md:
+    title: ICHOM Set
+  security.md:
+    title: Security
+  downloads.md:
+    title: Downloads
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  FHIR basics: fhir-basics.html
+  Use Cases: use-cases.html
+  ICHOM Set: standard-set.html
+  Security: security.html
+  Examples: artifacts.html#example-example-instances
+  Artifacts: artifacts.html
+  Downloads: downloads.html
+
+parameters:
+  usage-stats-opt-out: true
+  show-inherited-invariants: false
+  shownav: true
+  jira-code: ichom-breastcancer

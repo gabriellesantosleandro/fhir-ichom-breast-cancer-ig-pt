@@ -1,0 +1,9 @@
+{
+    "package-id" : "hl7.fhir.uv.ichom-breast-cancer",
+    "version" : "1.0.0",
+    "path" : "http://hl7.org/fhir/uv/ichom-breast-cancer/STU1",
+    "mode" : "milestone",
+    "status" : "trial-use",
+    "sequence" : "STU 1",
+    "desc" : "First release of the specification representing the ICHOM Breast Cancer Patient-Centered Outcome Set version 5.0, modelled as both FHIR Questionnaires and resource profiles."
+}

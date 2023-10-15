@@ -1,0 +1,8 @@
+== Suppressed Messages ==
+
+# Add warning and/or information messages here after you've confirmed that they aren't really a problem
+# (And include comments like this justifying why)
+# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# These SNOMED-CT terms are using both FSN-terms and preferred names, and have been checked
+%This SNOMED-CT based include has some concepts with semantic tags (FSN terms)%
